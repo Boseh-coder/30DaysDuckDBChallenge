@@ -116,7 +116,14 @@ I examined the FIFA datasets thoroughly for these two days, with a keen focus on
 5. Rank players by their OVA in descending order within each club
    
 For the SQL Queries used, check the [Queries for Day 8 and 9](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/6b0c139bb173a7a987ea1540e5d63879dd607414/Queries%20for%20day%208%20and%209.sql)
-## Day 10 and Beyond
+
+
+
+## Day 10 to 14 
+
+In this 30DaysDuckDBchallenge, spanning Days 10 to 14, I embarked on a journey of learning GitHub and addressing an initial misstep in my project. This educational venture revealed key lessons. I grasped the significance of version control using Git and GitHub, understanding their pivotal role in maintaining project history and facilitating collaboration. I successfully created a GitHub repository, taking strides in repository management. The creation and application of personal access tokens for secure authentication enhanced my workflow. Proficiency in fundamental Git commands like git clone, git add, git commit, and git push emerged, enabling code management efficiency. Equally crucial were lessons in selecting the appropriate text editor, crafting meaningful commit messages, and ensuring secure authentication, all serving to bolster my capabilities and cultivate more effective development practices.
+
+## Day 15 and Beyond
 
 Starting from Day 10, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
 
