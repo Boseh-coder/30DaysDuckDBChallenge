@@ -119,10 +119,28 @@ For the SQL Queries used, check the [Queries for Day 8 and 9 challenge](https://
 
 
 
-## Day 10 to 14 
+## Day 10 to 14: Learnt Github
 
-For these two days, I embarked on a journey of learning GitHub and addressing an initial misstep in my project. This educational venture revealed key lessons. I grasped the significance of version control using Git and GitHub, understanding their pivotal role in maintaining project history and facilitating collaboration. 
-I successfully created a GitHub repository, taking strides in repository management. The creation and application of personal access tokens for secure authentication enhanced my workflow. Proficiency in fundamental Git commands like git clone, git add, git commit, and git push emerged, enabling code management efficiency. Equally crucial were lessons in selecting the appropriate text editor, crafting meaningful commit messages, and ensuring secure authentication, all serving to bolster my capabilities and cultivate more effective development practices.
+As part of the 30DaysDuckDBchallenge, I aimed to learn how to use GitHub, create a repository, and organize my daily tasks into individual SQL files.
+Early on, I made a mistake by adding my SQL code using Markdown formatting in a README.md file instead of saving it in SQL files. In order to correct my mistakes, I began by researching how to use GitHub effectively.
+
+After I had finished watching the YouTube videos on Github, I was able to correct my mistakes by taking the necessary steps below;
+
+- I started by creating a GitHub repository named "30DaysDuckDBchallenge." This would be the place where I could organize and store my SQL files.
+
+- To interact with GitHub from my command line, I needed a personal access token. I created one and named it "My CLI Token." I made sure to copy and securely save this token for later use.
+
+- Next, I downloaded Git Bash, an application that would serve as my command line interface for working with Git on my computer.
+
+- I proceeded by cloning the "30DaysDuckDBchallenge" repository from GitHub to my local computer. This automatically copied the repository's contents into an empty folder that I had prepared. I confirmed the location by using the 'ls' command.
+
+- To correct my earlier mistake, I needed a text editor. I downloaded and installed "Atom," which allowed me to write out my SQL queries. I made sure to save them as SQL files in the folder where I had cloned the repository.
+
+- To ensure that my SQL files were recognized by Git, I used the git status command. This helped me confirm that the SQL files were indeed tracked.
+
+- I used the ' git add .' command to stage the SQL files for committing. This told Git that I wanted to include these files in my next commit. After that, I made a commit with a meaningful message using the 'git commit -m "my changes" command.
+
+- Before I could push my changes to the GitHub repository, I needed to identify myself. I connected to my GitHub account using the personal access token I had created earlier. With authentication in place, I used the 'git push' command to send my recent commit to my GitHub repository, effectively correcting the mistakes I had made earlier.
 
 ## Day 15 and Beyond
 
