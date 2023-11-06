@@ -126,7 +126,7 @@ I successfully created a GitHub repository, taking strides in repository managem
 
 ## Day 15 and Beyond
 
-Starting from Day 10, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
+Starting from Day 15, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
 
 - Data Visualization: Creating insightful plots and graphs to visualize the data.
 - Findings and Recommendations
