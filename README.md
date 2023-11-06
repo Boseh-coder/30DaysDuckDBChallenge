@@ -99,7 +99,7 @@ Question 3: Find out which club has the largest representation of players in the
 
 Question 4: List the top 10 players with the highest OVA and POT values.
 
-To get more insight on this challenge, you can check [DAY 7 READ.Me](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/a6df7c9de3ffd4a50437930ab47833b14cd54257/DAY%207%20README.md)
+For SQL Queries used see [Queries for Day 7 challenge.sql](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/351f33ea849241ccfd4eb8330910a68b34074871/Queries%20for%20Day%207%20challenge.sql)
 
 ## Day 8 and 9: Tackled Some Questions (2)
 
