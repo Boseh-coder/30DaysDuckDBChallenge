@@ -115,7 +115,7 @@ I examined the FIFA datasets thoroughly for these two days, with a keen focus on
 
 5. Rank players by their OVA in descending order within each club
    
-For the SQL Queries used, check the [Queries for Day 8 and 9](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/6b0c139bb173a7a987ea1540e5d63879dd607414/Queries%20for%20day%208%20and%209.sql)
+For the SQL Queries used, check the [Queries for Day 8 and 9 challenge](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/6b0c139bb173a7a987ea1540e5d63879dd607414/Queries%20for%20day%208%20and%209.sql)
 
 
 
