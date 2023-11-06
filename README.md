@@ -84,7 +84,7 @@ Here's how I accomplished it:
 - I also converted the 'Hits' column to a numerical format, making it useful for analysis. 
 - In table fifa21_player, the 'Team & Contract' column had some show/hide signs. I removed them and then separated the 'Team' from ‘Contract’, I went further by renaming the 'Team' column as the ‘Club’ column for clarity. The purpose of doing this was to make sure that both tables I am using have the same column names. 
 
-See [Text_query for day 3 to 6 Challenge.sql](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/d1d4da754f6b9596b20859f1f58a474102bfc7a5/Text_query%20for%20day%203%20to%206%20challenge.sql) for the queries
+See [Queries for day 3 to 6 Challenge.sql](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/d1d4da754f6b9596b20859f1f58a474102bfc7a5/Text_query%20for%20day%203%20to%206%20challenge.sql) for the queries
 ## Day 7: Tackled Some Questions
 
 For Day 7 of the Challenge, I am to focus on some questions.
