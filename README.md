@@ -119,7 +119,7 @@ For the SQL Queries used, check the [Queries for Day 8 and 9 challenge](https://
 
 
 
-## Day 10 to 14: Learnt Github
+## Day 10: Learnt Github
 
 As part of the 30DaysDuckDBchallenge, I aimed to learn how to use GitHub, create a repository, and organize my daily tasks into individual SQL files.
 Early on, I made a mistake by adding my SQL code using Markdown formatting in a README.md file instead of saving it in SQL files. In order to correct my mistakes, I began by researching how to use GitHub effectively.
@@ -142,12 +142,54 @@ After I had finished watching the YouTube videos on Github, I was able to correc
 
 - Before I could push my changes to the GitHub repository, I needed to identify myself. I connected to my GitHub account using the personal access token I had created earlier. With authentication in place, I used the 'git push' command to send my recent commit to my GitHub repository, effectively correcting the mistakes I had made earlier.
 
-## Day 15 and Beyond
 
-Starting from Day 15, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
+## Day 11 and 12: Power BI Visualization
+As part of the #30DaysDuckDBChallenge, I'm to create an interactive visualization by using Power BI with the given Fifa datasets.
 
-- Data Visualization: Creating insightful plots and graphs to visualize the data.
+Let me walk you through the tasks and my approach to them:
+
+#### Tasks Given:
+- In Power BI, import the two pre-cleaned datasets from DuckDB.
+- Perform any necessary data cleaning and transformation within Power.
+- Combine the two datasets using a common column.
+
+- Visualizations and Dashboard:
+  
+Task 1: Nationality Distribution: Create a bar chart that displays the distribution of players' nationalities.
+
+Task 2: Age vs. Potential: Build a scatter plot that explores the relationship between a player's "Age" and "POT" (potential).Add a trendline to visualize the trend between age and potential.
+
+Task 3: Player Position Analysis: Generate a pie chart showing the distribution of player positions .
+
+Task 4: Top Players by Overall Rating: Create a table that lists the top players based on their "OVA" (overall rating) in descending order.
+
+- Dashboard: Interactive dashboard creation with slicers and filters.
+
+#### My Steps:
+- Exported Fifa dataset as CSV files from DuckDB.
+- Imported the datasets as CSV files into Power BI
+- Handled data cleaning in Power BI via Power query editor, converting text to numbers and dates.
+- Merged the two datasets with Append Queries as one.
+- Crafted an engaging dashboard with interactive elements.
+
+#### Insights:
+
+1) England leads with 1,705 occurrences of Nationality, followed by Germany and Spain.
+
+2) Player potential peaks at 28, declining at 42. Younger players exhibit higher potential.
+
+3) For the position analysis; CB (28.48%), GK (24.2%), ST (21.75%), CM (9.27%) lead the positions.
+   
+4) Lionel Messi claims the highest Overall Rating of 93.
+
+I have learned a great deal in Power BI about data visualization, understanding the import, cleaning and merging of datasets with ease from this challenge. Also, this experience has strengthened my confidence in the use of Power BI as a powerful tool for impactful storytelling and decision making.
+
+## Day 13 and Beyond
+
+Starting from Day 13, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
 - Findings and Recommendations
+- Conclusions
+- Presentation
 
 Stay tuned as I explore and analyze the FIFA dataset using DuckDB. I'll be sharing my code, findings, and insights as I progress through the challenge. Feel free to join me in this exciting journey of data exploration and analysis!
 
