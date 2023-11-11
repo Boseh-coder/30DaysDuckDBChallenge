@@ -182,7 +182,24 @@ Task 4: Top Players by Overall Rating: Create a table that lists the top players
    
 4) Lionel Messi claims the highest Overall Rating of 93.
 
+
+![fifa21 dashboard- Day 11   12](https://github.com/Boseh-coder/30DaysDuckDBChallenge/assets/93943729/e39c8251-350b-4516-a80c-7d27ce9f25c8)
+
+
+
+
+
+
+
+
+
+
+
+
 I have learned a great deal in Power BI about data visualization, understanding the import, cleaning and merging of datasets with ease from this challenge. Also, this experience has strengthened my confidence in the use of Power BI as a powerful tool for impactful storytelling and decision making.
+You can view the Power BI Project files [Here](https://github.com/Boseh-coder/30DaysDuckDBChallenge/tree/c86c6491d410f44589332c4ef9b81aa75e585dbc/Dashboard%20Visualization%20for%20Fifa%2021-%20Day%2011%20%26%2012)
+
+
 
 ## Day 13 and Beyond
 
