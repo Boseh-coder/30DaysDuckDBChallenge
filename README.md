@@ -222,7 +222,7 @@ You can view the Power BI Project files [Here](https://github.com/Boseh-coder/30
 
 
 
-So, let's get the story straight. I dove headfirst into "DuckDB in Action," and let me tell you, it's been an eye-opener. The book began with a clear introduction to DuckDB, what it is, what it's capable of. No beating around the bush, straight to the good stuff.
+So, let's get the story straight. I dove headfirst into "DuckDB in Action," and let me tell you, it's been an eye-opener. The book began with a clear introduction to DuckDB, what it is, and what it's capable of. No beating around the bush, straight to the good stuff.
 
 First things first, DuckDB is a data analytics powerhouse. Whether it is performing CLI operations, working with cloud data pipelines or programming in Python, it seamlessly fits into pipelines. The flexibility is top-notch; it handles local or remote files in formats like CSV, JSON, Parquet, and Arrow. Not to mention, it plays well with databases like MySQL, SQLite, and Postgres.
 
@@ -243,12 +243,28 @@ And here's the deal - DuckDB isn't just a tool; it's a mindset shift. It's about
 
 As I navigate the Titanic dataset in DuckDB, I'm excited about the discoveries waiting to unfold. Stay tuned for more updates as I uncover insights from the data seas! 
 
-Here's the point: DuckDB is not just a tool; it's a mind shift. It's about making data analysis faster, simpler, and more cost effective. The book didn't just throw information at me; it showed me how to make DuckDB work for me, in my projects, and with my datasets. I'm excited about the discoveries that await me in DuckDB, as I go through the massive dataset for the Great Ship. 
+Here's the point: DuckDB is not just a tool; it's a mind shift. It's about making data analysis faster, simpler, and more cost-effective. The book didn't just throw information at me; it showed me how to make DuckDB work for me, in my projects, and with my datasets. I'm excited about the discoveries that await me in DuckDB, as I go through the massive dataset for the Great Ship. 
+
+## Day 15 and 16: Learned Advanced SQL techniques
+
+The task for this day was to watch some YouTube tutorials on advanced SQL techniques
+
+I've successfully wrapped up the first phase of the 30DaysDuckDBChallenge, where I honed my SQL skills using FIFA 21 datasets. Now, I am embarking on the next phase where I'll be immersing myself in Advanced SQL techniques using the Titanic datasets.
+
+In preparation for the Titanic dataset analysis, I delved into some YouTube tutorials that were given for this task. From Alex the Analyst's breakdown of Subqueries to Matador Software, Kenneth Troung's guide on Creating Buckets in SQL with NTILE Window Functions, and Toufiq's insights into Subquery in SQL and using the WITH Clause.
+
+What I've Learned:
+1) Various types of subqueries and also learned how to integrate them seamlessly into SQL queries.
+2) Learned how to utilize NTILE window functions to craft impactful data buckets.
+3) How to write SQL queries using the elegant WITH clause.
+
+With what I've learned, I'm now equipped to apply these advanced SQL techniques to the Titanic dataset I'll be exploring.
+Click [Here](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/b3227c3b07840a9d9f5f13cbe96afd9aadaa4176/Advanced%20SQL%20Techniques%20Summary.pdf) to see a summary of what i have learnt
 
 
-## Day 14 and Beyond
+## Day 17 and Beyond
 
-Starting from Day 14, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
+Starting from Day 15, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
 - Perform some data cleaning on Titanic datasets
 - Analysis
 - Power BI Visualization
