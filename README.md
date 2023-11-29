@@ -288,11 +288,104 @@ This task enhanced my SQL skills and emphasized the importance of exploring data
 
 For the SQL Queries Click [Here](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/c9e576f8f2989f1f4d663982ff961a889499ca64/Day17%20%26%2018%20queries.sql)
 
+## Day 19 and 20 : Analysis on Survival rates
+Embarking on Day 19 and 20 of the 30DaysDuckDBChallenge, I immersed myself in the Titanic dataset. Some Questions were given for analysis, and below are the steps I took, along with my findings.
 
-## Day 19 and Beyond
+Question 1: Understanding Titles and Survival Rates 
+
+Objective: Explore the relationship between passenger titles and their survival rates. 
+
+Steps: 
+
+a. Identify unique titles in the dataset. 
+
+b. Consolidate infrequent titles into broader categories (e.g., Mr, Mrs, Miss, Master). 
+
+c. Calculate and analyze survival rates for each title grouping.
+
+
+### STEPS  I TOOK:
+
+I started by identifying the unique titles in the dataset. This is important because I want to know what titles are present in the data before I consolidate them into broader categories. I did this by using a SELECT DISTINCT query to select the distinct values of the Title column. The query also uses a CASE statement to categorize titles into the following categories:
+
+•	Master
+
+•	Miss
+
+•	Mrs.
+
+•	Mr.
+
+•	Other (which comprises of Dr, Rev, Col, Countess, Mlle, Ms. Etc.)
+
+Once I had identified the unique titles in the dataset, I consolidated the infrequent titles into broader categories. I did this by creating a new column in the Titanic_dataset table called “Title”. I then populated this column with the title categories that I identified in Step 1. I used several CASE statements to categorize titles based on specific patterns in the Name column.
+
+I categorized any name containing the terms "Master", "Miss", “Mr.”, or "Mrs." into the corresponding title category. I also categorized any name containing the terms "Ms.", "Don", "Rev.", "Major", "Countess", "Col", "Capt.", "Jonkheer" to mention but few that is found under the other category into the "Master", "Miss", “Mr.”, and "Mrs.” title category where it applies. I also handled the case of "Dr." differently based on the passenger's sex.
+
+This process of consolidating infrequent titles into broader categories helps to reduce the dimensionality of the data and makes it easier to analyze the relationship between titles and survival rates.
+
+C. Calculate and analyze survival rates for each title grouping.
+
+
+
+
+![Sol 1](https://github.com/Boseh-coder/30DaysDuckDBChallenge/assets/93943729/a303355d-955e-4470-8c6f-8345235f18c2)
+
+
+
+
+
+
+
+
+
+
+Findings: 
+This analysis shows that women had a much higher chance of surviving the sinking than men. This is because women and children were given priority when boarding the lifeboats.
+The survival rate for women with the title "Mrs." was the highest, at 87%. This means that about 87 out of every 100 women with this title survived the sinking. The survival rate for women with the title "Miss" was also very high, at 79%.
+Children, who were often given the title "Master," had a survival rate of 37%. This means that about 37 out of every 100 children survived the sinking.
+The survival rate for men was much lower, at 11%. This means that only about 11 out of every 100 men survived the sinking
+
+Question 2: calculate the survival based on being a woman or a child 
+
+Objective: Evaluate the insights gained from a binary feature flagging passengers as women/children or adult men.
+
+
+
+
+
+
+
+
+![Sol  2](https://github.com/Boseh-coder/30DaysDuckDBChallenge/assets/93943729/4527ab3e-8326-4936-89ee-44ea3ab445ae)
+
+
+
+
+
+
+
+
+
+Findings:
+This analysis revealed shows that there is a significant difference in survival rates between women/children and adult men. Women/children had a significantly higher survival rate of 50.6% compared to 17.5% for adult men. This can be attributed to the "women and children first" policy, which prioritized their boarding of lifeboats. Additionally, women had an even higher survival rate of 85.1%, likely due to traveling with children and the perceived vulnerability of younger passengers.
+
+
+
+
+
+
+
+Click [Here](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/e7dbdaf5cb653c278384a3e930aaa07850b422ba/Day%2019%20%26%2020%20queries.sql) to see the queries used for this analysis.
+
+
+
+
+
+
+## Day 21 and Beyond
 
 Starting from Day 19, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
-- Perform some data cleaning on Titanic datasets
 - Analysis
 - Power BI Visualization
 - Findings and Recommendations
