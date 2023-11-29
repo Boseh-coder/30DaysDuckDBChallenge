@@ -261,10 +261,37 @@ What I've Learned:
 With what I've learned, I'm now equipped to apply these advanced SQL techniques to the Titanic dataset I'll be exploring.
 Click [Here](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/b3227c3b07840a9d9f5f13cbe96afd9aadaa4176/Advanced%20SQL%20Techniques%20Summary.pdf) to see a summary of what i have learnt
 
+## Day 17 and 18 : Analysed Titanic Datasets
 
-## Day 17 and Beyond
+Still on #30DaysDuckDBChallenge, like I said in my last post, I’m moving on to the next phase of this challenge, where I'll be immersing myself in Advanced SQL techniques using the Titanic datasets. Now it is time to apply what I’ve learnt from those YouTube tutorials to tasks given.
 
-Starting from Day 15, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
+TASKS: Analyze the Titanic dataset with the questions given (you see the slide for this questions)
+
+The Titanic disaster, one of history's most tragic maritime catastrophes, continues to captivate and inspire research into the factors that determined the fate of its passengers. For Day 17 & 18 of the challenge, I embarked on a data-driven exploration of the Titanic dataset.
+
+### Below are my steps & Insights:
+
+I commenced by merging the "train" and "test" datasets into a comprehensive "Titanic_Analysis" table. Leveraged "Gender_submission" dataset to enrich survival details in the analysis.
+
+#### Fare & Survival Rates:
+
+I analyzed survival rates based on fare and discovered a positive correlation. As fare amounts increased, so did the likelihood of survival. This finding suggests that passengers who paid higher fares had access to a better medical care, lifeboats and prioritization during the evacuation process.
+
+#### Gender Disparities:
+
+My analysis of survival rates based on sex revealed a stark disparity between males and females. I found that females had a significantly higher survival rate of 82.62%, compared to males with a survival rate of 12.93%. This difference can be attributed to the prioritization of women in the boarding of lifeboats.
+
+#### Age & Survival Correlation:
+
+I explored the relationship between survival and age and discovered a correlation. I observed that as age increased, the survival rate decreased. Children had the highest survival rates, followed by younger adults. This trend is likely due to the prioritization of women and children, the physical fitness of younger individuals, and the vulnerability of older adults to the cold and exposure.
+This task enhanced my SQL skills and emphasized the importance of exploring data to uncover valuable insights in a straightforward and understandable way.
+
+For the SQL Queries Click [Here](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/c9e576f8f2989f1f4d663982ff961a889499ca64/Day17%20%26%2018%20queries.sql)
+
+
+## Day 19 and Beyond
+
+Starting from Day 19, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
 - Perform some data cleaning on Titanic datasets
 - Analysis
 - Power BI Visualization
