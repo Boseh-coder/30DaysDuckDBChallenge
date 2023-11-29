@@ -376,7 +376,13 @@ This analysis revealed shows that there is a significant difference in survival 
 
 
 
+
+
 Click [Here](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/e7dbdaf5cb653c278384a3e930aaa07850b422ba/Day%2019%20%26%2020%20queries.sql) to see the queries used for this analysis.
+
+
+
+
 
 
 
