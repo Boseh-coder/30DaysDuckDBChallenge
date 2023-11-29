@@ -1,19 +1,19 @@
----created a new Table Titanic_Analysis by combining Train and Test dataset
-CREATE TABLE Titanic_Analysis AS
+---created a new Table Titanic_dataset by combining Train and Test dataset
+CREATE TABLE Titanic_dataset AS
 SELECT PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked
 FROM train
 UNION ALL
 SELECT PassengerId, NULL AS Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked
 FROM test;
 
----Update the Survived column in Titanic_Analysis using Gender_submission dataset
-UPDATE Titanic_Analysis
+---Update the Survived column in Titanic_dataset using Gender_submission dataset
+UPDATE Titanic_dataset
 SET Survived = COALESCE(Gender_submission.Survived, 0)
 FROM Gender_submission
-WHERE Titanic_Analysis.PassengerId = Gender_submission.PassengerId;
+WHERE Titanic_dataset.PassengerId = Gender_submission.PassengerId;
 
 
----Fare & Survival Rates Titanic_AnalysisWITH fare_bin AS (
+---Fare & Survival Rates Titanic_dataset WITH fare_bin AS (
     SELECT
         passengerid,
         fare,
