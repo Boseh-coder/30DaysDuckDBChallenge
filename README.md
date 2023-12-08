@@ -1,8 +1,5 @@
 # 30DaysDuckDBChallenge
 
-## Introduction
-
-Embarking on the 30DaysDuckDBChallenge, I dived into the FIFA and Titanic datasets, leveraging DuckDB, SQL, and Power BI to extract insights and enhance data analysis skills. This journey involved tasks ranging from basic SQL operations to advanced techniques, GitHub integration, and data visualization.
 
 
 
@@ -12,20 +9,23 @@ Embarking on the 30DaysDuckDBChallenge, I dived into the FIFA and Titanic datase
 
 
 
+## Introduction
+
+Embarking on the 30DaysDuckDBChallenge, I dived into the FIFA and Titanic datasets, leveraging DuckDB, SQL, and Power BI to extract insights and enhance data analysis skills. This journey involved tasks ranging from basic SQL operations to advanced techniques, GitHub integration, and data visualization.
 
 
 
 ## Table of Contents
 
-- [Tasks Overview](Tasks_Overview)
-- [Technologies Used](Technologies_Used)
-- [Code Samples](Code_Samples)
-- [Results and Findings](Results_and_Findings)
-- [essons Learned](Lessons_Learned)
-- [Acknowledgements](Acknowledgements)
-- [How to Run the Code](How_to_Run_the_Code)
-- [Conclusion](Conclusion)
-- [Contact Information](Contact_Information)
+- [Tasks Overview](#Tasks_Overview)
+- [Technologies Used](#Technologies_Used)
+- [Code Samples](#Code_Samples)
+- [Results and Findings](#Results_and_Findings)
+- [Lessons Learned](#Lessons_Learned)
+- [Acknowledgements](#Acknowledgements)
+- [How to Run the Code](#How_to_Run_the_Code)
+- [Conclusion](#Conclusion)
+- [Contact Information](#Contact_Information)
 
   
 ## Tasks Overview
