@@ -17,15 +17,15 @@ Embarking on the 30DaysDuckDBChallenge, I dived into the FIFA and Titanic datase
 
 ## Table of Contents
 
-- [Tasks Overview](#Tasks_Overview)
-- [Technologies Used](#Technologies_Used)
-- [Code Samples](#Code_Samples)
-- [Results and Findings](#Results_and_Findings)
-- [Lessons Learned](#Lessons_Learned)
+- [Tasks Overview](#TasksOverview)
+- [Technologies Used](#TechnologiesUsed)
+- [Code Samples](#CodeSamples)
+- [Results and Findings](#ResultsandFindings)
+- [Lessons Learned](#LessonsLearned)
 - [Acknowledgements](#Acknowledgements)
-- [How to Run the Code](#How_to_Run_the_Code)
+- [How to Run the Code](#HowtoRuntheCode)
 - [Conclusion](#Conclusion)
-- [Contact Information](#Contact_Information)
+- [Contact Information](#ContactInformation)
 
   
 ## Tasks Overview
