@@ -386,12 +386,43 @@ Click [Here](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/e7dbdaf5c
 
 
 
+## Day 21 - 23 : Deep Dive into the Titanic Passengers
 
+For the Day 21 to 23 of the 30daysduckdbchallenge, the following tasks were to be carried out;
 
+Task 1: Survival based on Cabin Level
 
-## Day 21 and Beyond
+Write an SQL query to display the number of passengers, their survival rate, and the cabin level they belong to. The assumption here is that the same ticket number defines passengers traveling together. Please consider this assumption while formulating your query.
 
-Starting from Day 19, I will continue my journey by diving deeper into the FIFA dataset. Here's what you can expect in the upcoming days:
+Task 2: Solo Travelers, Family Travelers, and Mix Group
+
+Using SQL, categorize passengers into solo travelers, those traveling with a family, and those in a mixed group. The assumption for this task is based on ticket number and surname extracted from the original Name feature. If an individual is the only passenger attached to a ticket, consider them a solo traveler. Please assume that families may have other members on different tickets.
+
+Task 3: Family Size Calculation
+
+Write an SQL query to determine the family size for each passenger. The assumption for family size calculation is to add SibSp, ParCh, and the current passenger (+1). However, this is determined at the maximum family size based on ticket number and surname. Assume that families traveled together on the same ticket. Use a mapping SQL subquery to match the sum of SibSp, ParCh, and the current passenger with the family size, considering the same ticket number and surname.
+
+Assumption Metrics were also given for these tasks;
+
+Task 1: Same ticket number defines passengers traveling together.
+
+Task 2: Solo travelers if the individual is the only passenger attached to a ticket.
+
+Task 3: Family size is calculated by adding SibSp, ParCh, and the current passenger (+1) but determined at the maximum family size based on ticket number and surname.
+
+Using SQL, I was able to extract valuable insights about the passengers and their travel circumstances. Here are the key steps I took:
+
+In Task 1, I crafted an SQL query to explore the survival dynamics based on cabin levels, factoring in the assumption that passengers sharing the same ticket were traveling together. By aggregating data on non-null cabin entries, I derived key metrics such as total passengers, survived count, and survival rate, providing insights into the correlation between cabin levels and survival.
+
+In Task 2, I initiated the process by enhancing the dataset with a new 'Surname' column. Extracting surnames through a strategic update, I then classified passengers into solo travelers, family travelers, or those in mixed groups. Leveraging ticket information and family-related parameters, this segmentation enriched our understanding of diverse passenger compositions.
+
+Task 3 unfolded in two stages: I introduced a 'FamilySize' column, calculating it by summing SibSp, ParCh, and the current passenger (+1). Then, by determining the maximum family size based on ticket number and surname, I contextualized family structures. 
+
+Click [Here](https://github.com/Boseh-coder/30DaysDuckDBChallenge/blob/2125572c2742cf1c9763c306ffd9d85748c62313/Queries%20for%20day%2021%20to%2023%20challenge.sql) to see the queries used for this analysis.
+
+## Day 24 and Beyond
+
+Starting from Day 24, I will continue my journey by diving deeper into the TITANIC dataset. Here's what you can expect in the upcoming days:
 - Analysis
 - Power BI Visualization
 - Findings and Recommendations
