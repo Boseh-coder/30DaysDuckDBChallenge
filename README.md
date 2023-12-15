@@ -100,6 +100,16 @@ A detailed examination of passenger details yielded valuable insights:
 
 - Family Size Calculation: Family size was determined, considering SibSp, ParCh, and passengers sharing the same ticket.
 
+### Day 24-26: Unveiling Class, Gender, and Embarkation Insights
+
+In the recent phase of exploration, the focus was on extracting profound insights from the Titanic dataset:
+
+1. Survival Rates in Third Class: Evident gender and vulnerability impact, aligning with historical evacuation priorities.
+
+2. Survival Across Demographics: Intersectionality of factors like class and embarkation point significantly influences survival probabilities.
+
+3. Advising Chances of Survival: Historical trends, embarkation disadvantages, and age group dynamics contribute to individual outcomes.
+
 ## Lessons Learned
 
 - Enhanced SQL skills, learned advanced techniques, and gained proficiency in data visualization with Power BI.
