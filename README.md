@@ -109,6 +109,28 @@ In the recent phase of exploration, the focus was on extracting profound insight
 2. Survival Across Demographics: Intersectionality of factors like class and embarkation point significantly influences survival probabilities.
 
 3. Advising Chances of Survival: Historical trends, embarkation disadvantages, and age group dynamics contribute to individual outcomes.
+   
+
+### Day 27-30: Unveiling the Untold Stories of the Titanic Tragedy
+
+The following insights were uncovered from this analysis:
+
+- Solo travelers are predominant (848), "Sage family" has the largest family size, and adult men show a low survival rate (11%).
+  
+
+- Men in third class have a survival rate of 37.74%, while females outperform males with 86.47% survival. Cherbourg stands out with the highest embarkation survival rate.
+  
+
+- Passenger class influences survival rates, with first-class passengers having the highest rates. Southampton, Queenstown, and Cherbourg show varying embarkation survival rates.
+  
+
+- Overall, the analysis unveils nuanced patterns in survival based on demographics, family dynamics, and socio-economic factors among Titanic passengers.
+
+
+
+
+
+
 
 ## Lessons Learned
 
