@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Titanic Dashboard (Project Files).Dataset"
+    },
+    "byConnection": null
+  }
+}

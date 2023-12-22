@@ -1,0 +1,815 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Titanic_Dataset\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.124.1052.0 (23.12)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-NG",
+    "tables": [
+      {
+        "name": "Titanic_Dataset",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "PassengerId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d5fe841e-df44-40ed-a894-553e51325348",
+            "sourceColumn": "PassengerId",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "Survived",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dedd93f0-f079-486d-801c-110c32b05632",
+            "sourceColumn": "Survived",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Pclass",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "73c0f187-6525-4213-b2d2-03fa96e8b9f0",
+            "sourceColumn": "Pclass",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Surname",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bf0c8d5a-7869-4f58-b18a-a3bda1251cff",
+            "sourceColumn": "Surname",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LongName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d01562b5-4c7f-42e3-b987-461d5bb2a479",
+            "sourceColumn": "LongName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Title",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0aaf46b1-653b-4ef1-a9bf-ff7f69493c9a",
+            "sourceColumn": "Title",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2c877f9f-033d-4cc9-88ce-6643345fb672",
+            "sourceColumn": "Gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"Titanic_Dataset\",\"TableItemName\":\"Age Group\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7ff8dc5e-0dad-4a29-b53e-9f29859e8cf9",
+            "sourceColumn": "Age",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "SibSp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5b1d98ab-47c9-4e5e-99b6-1148795a96aa",
+            "sourceColumn": "SibSp",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Parch",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fe95da1f-abbb-4c14-bd9a-74b93ceef480",
+            "sourceColumn": "Parch",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Fare",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"Titanic_Dataset\",\"TableItemName\":\"Fare bins\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "7d69c153-4177-41ac-8ab3-b66af34bf69f",
+            "sourceColumn": "Fare",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Ticket",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0d015d97-a5bc-48c7-846e-eb3b4495e5b8",
+            "sourceColumn": "Ticket",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Cabin",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dd435cef-65e4-49bb-8068-f16798c33848",
+            "sourceColumn": "Cabin",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CabinLevel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2c46af28-b4f9-4892-a04b-9ee2a89e4645",
+            "sourceColumn": "CabinLevel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FamilySize",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1f1594f5-3e6c-413b-b140-14d032b61491",
+            "sourceColumn": "FamilySize",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MaxFamilySize",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "89ad09cf-6466-4c91-bae2-90410cb0d69d",
+            "sourceColumn": "MaxFamilySize",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "TravelGroup",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c05f2a92-1c17-4f4f-b006-c07757d07b32",
+            "sourceColumn": "TravelGroup",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Embarked",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7c985174-4623-46f8-82c0-dfde45f5f86a",
+            "sourceColumn": "Embarked",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age Group",
+            "annotations": [
+              {
+                "name": "GroupingDesignState",
+                "value": "{\"Version\":0,\"Sources\":[{\"Name\":\"t\",\"Entity\":\"Titanic_Dataset\"}],\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Age\"}}],\"GroupItems\":[{\"DisplayName\":\"(Blank)\",\"BlankDefaultPlaceholder\":true},{\"DisplayName\":\"0-10\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Age\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"0L\"}}],[{\"Literal\":{\"Value\":\"1L\"}}],[{\"Literal\":{\"Value\":\"2L\"}}],[{\"Literal\":{\"Value\":\"3L\"}}],[{\"Literal\":{\"Value\":\"4L\"}}],[{\"Literal\":{\"Value\":\"5L\"}}],[{\"Literal\":{\"Value\":\"6L\"}}],[{\"Literal\":{\"Value\":\"7L\"}}],[{\"Literal\":{\"Value\":\"8L\"}}],[{\"Literal\":{\"Value\":\"9L\"}}],[{\"Literal\":{\"Value\":\"10L\"}}]]}}},{\"DisplayName\":\"11-20\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Age\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"11L\"}}],[{\"Literal\":{\"Value\":\"12L\"}}],[{\"Literal\":{\"Value\":\"13L\"}}],[{\"Literal\":{\"Value\":\"14L\"}}],[{\"Literal\":{\"Value\":\"15L\"}}],[{\"Literal\":{\"Value\":\"16L\"}}],[{\"Literal\":{\"Value\":\"17L\"}}],[{\"Literal\":{\"Value\":\"18L\"}}],[{\"Literal\":{\"Value\":\"19L\"}}],[{\"Literal\":{\"Value\":\"20L\"}}]]}}},{\"DisplayName\":\"21-30\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Age\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"21L\"}}],[{\"Literal\":{\"Value\":\"22L\"}}],[{\"Literal\":{\"Value\":\"23L\"}}],[{\"Literal\":{\"Value\":\"24L\"}}],[{\"Literal\":{\"Value\":\"25L\"}}],[{\"Literal\":{\"Value\":\"26L\"}}],[{\"Literal\":{\"Value\":\"27L\"}}],[{\"Literal\":{\"Value\":\"28L\"}}],[{\"Literal\":{\"Value\":\"29L\"}}],[{\"Literal\":{\"Value\":\"30L\"}}]]}}},{\"DisplayName\":\"31-40\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Age\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"31L\"}}],[{\"Literal\":{\"Value\":\"32L\"}}],[{\"Literal\":{\"Value\":\"33L\"}}],[{\"Literal\":{\"Value\":\"34L\"}}],[{\"Literal\":{\"Value\":\"35L\"}}],[{\"Literal\":{\"Value\":\"36L\"}}],[{\"Literal\":{\"Value\":\"37L\"}}],[{\"Literal\":{\"Value\":\"38L\"}}],[{\"Literal\":{\"Value\":\"39L\"}}],[{\"Literal\":{\"Value\":\"40L\"}}]]}}},{\"DisplayName\":\"41-50\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Age\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"41L\"}}],[{\"Literal\":{\"Value\":\"42L\"}}],[{\"Literal\":{\"Value\":\"43L\"}}],[{\"Literal\":{\"Value\":\"44L\"}}],[{\"Literal\":{\"Value\":\"45L\"}}],[{\"Literal\":{\"Value\":\"46L\"}}],[{\"Literal\":{\"Value\":\"47L\"}}],[{\"Literal\":{\"Value\":\"48L\"}}],[{\"Literal\":{\"Value\":\"49L\"}}],[{\"Literal\":{\"Value\":\"50L\"}}]]}}},{\"DisplayName\":\"51-60\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Age\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"51L\"}}],[{\"Literal\":{\"Value\":\"52L\"}}],[{\"Literal\":{\"Value\":\"53L\"}}],[{\"Literal\":{\"Value\":\"54L\"}}],[{\"Literal\":{\"Value\":\"55L\"}}],[{\"Literal\":{\"Value\":\"56L\"}}],[{\"Literal\":{\"Value\":\"57L\"}}],[{\"Literal\":{\"Value\":\"58L\"}}],[{\"Literal\":{\"Value\":\"59L\"}}],[{\"Literal\":{\"Value\":\"60L\"}}]]}}},{\"DisplayName\":\"61-70\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Age\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"61L\"}}],[{\"Literal\":{\"Value\":\"62L\"}}],[{\"Literal\":{\"Value\":\"63L\"}}],[{\"Literal\":{\"Value\":\"64L\"}}],[{\"Literal\":{\"Value\":\"65L\"}}],[{\"Literal\":{\"Value\":\"66L\"}}],[{\"Literal\":{\"Value\":\"67L\"}}],[{\"Literal\":{\"Value\":\"70L\"}}]]}}},{\"DisplayName\":\"71-80\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Age\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"71L\"}}],[{\"Literal\":{\"Value\":\"74L\"}}],[{\"Literal\":{\"Value\":\"76L\"}}],[{\"Literal\":{\"Value\":\"80L\"}}]]}}},{\"DisplayName\":\"Other\"}]}"
+              },
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "\tTRUE,",
+              "\tISBLANK('Titanic_Dataset'[Age]),",
+              "\t\"(Blank)\",",
+              "\t'Titanic_Dataset'[Age] IN {0,",
+              "\t\t1,",
+              "\t\t2,",
+              "\t\t3,",
+              "\t\t4,",
+              "\t\t5,",
+              "\t\t6,",
+              "\t\t7,",
+              "\t\t8,",
+              "\t\t9,",
+              "\t\t10},",
+              "\t\"0-10\",",
+              "\t'Titanic_Dataset'[Age] IN {11,",
+              "\t\t12,",
+              "\t\t13,",
+              "\t\t14,",
+              "\t\t15,",
+              "\t\t16,",
+              "\t\t17,",
+              "\t\t18,",
+              "\t\t19,",
+              "\t\t20},",
+              "\t\"11-20\",",
+              "\t'Titanic_Dataset'[Age] IN {21,",
+              "\t\t22,",
+              "\t\t23,",
+              "\t\t24,",
+              "\t\t25,",
+              "\t\t26,",
+              "\t\t27,",
+              "\t\t28,",
+              "\t\t29,",
+              "\t\t30},",
+              "\t\"21-30\",",
+              "\t'Titanic_Dataset'[Age] IN {31,",
+              "\t\t32,",
+              "\t\t33,",
+              "\t\t34,",
+              "\t\t35,",
+              "\t\t36,",
+              "\t\t37,",
+              "\t\t38,",
+              "\t\t39,",
+              "\t\t40},",
+              "\t\"31-40\",",
+              "\t'Titanic_Dataset'[Age] IN {41,",
+              "\t\t42,",
+              "\t\t43,",
+              "\t\t44,",
+              "\t\t45,",
+              "\t\t46,",
+              "\t\t47,",
+              "\t\t48,",
+              "\t\t49,",
+              "\t\t50},",
+              "\t\"41-50\",",
+              "\t'Titanic_Dataset'[Age] IN {51,",
+              "\t\t52,",
+              "\t\t53,",
+              "\t\t54,",
+              "\t\t55,",
+              "\t\t56,",
+              "\t\t57,",
+              "\t\t58,",
+              "\t\t59,",
+              "\t\t60},",
+              "\t\"51-60\",",
+              "\t'Titanic_Dataset'[Age] IN {61,",
+              "\t\t62,",
+              "\t\t63,",
+              "\t\t64,",
+              "\t\t65,",
+              "\t\t66,",
+              "\t\t67,",
+              "\t\t70},",
+              "\t\"61-70\",",
+              "\t'Titanic_Dataset'[Age] IN {71,",
+              "\t\t74,",
+              "\t\t76,",
+              "\t\t80},",
+              "\t\"71-80\",",
+              "\t\"Other\"",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "GroupingMetadata",
+                "type": "json",
+                "value": {
+                  "groupedColumns": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Titanic_Dataset"
+                          }
+                        },
+                        "Property": "Age"
+                      }
+                    }
+                  ],
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "e350e3a8-9b50-4a74-89dd-2223aff66d81",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Fare bins",
+            "annotations": [
+              {
+                "name": "GroupingDesignState",
+                "value": "{\"Version\":0,\"Sources\":[{\"Name\":\"t\",\"Entity\":\"Titanic_Dataset\"}],\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Fare\"}}],\"BinItem\":{\"Expression\":{\"Member\":{\"Expression\":{\"Discretize\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Fare\"}},\"Count\":6}},\"Member\":\"Min\"}}}}"
+              },
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "expression": [
+              "VAR __Count = 6",
+              "",
+              "VAR __Min = MIN('Titanic_Dataset'[Fare])",
+              "",
+              "VAR __Max = MAX('Titanic_Dataset'[Fare])",
+              "",
+              "VAR __Difference = (__Max - __Min)",
+              "",
+              "VAR __Size = IF(__Difference > 0, __Difference / __Count, 1)",
+              "",
+              "VAR __BinNumber = ",
+              "\tIF(",
+              "\t\tISBLANK('Titanic_Dataset'[Fare]),",
+              "\t\tBLANK(),",
+              "\t\tROUNDDOWN(('Titanic_Dataset'[Fare] - __Min) / __Size, 0)",
+              "\t)",
+              "",
+              "RETURN",
+              "\tIF(",
+              "\t\tISBLANK('Titanic_Dataset'[Fare]),",
+              "\t\tBLANK(),",
+              "\t\t__Min + (MIN(__BinNumber, __Count - 1) * __Size)",
+              "\t)"
+            ],
+            "extendedProperties": [
+              {
+                "name": "GroupingMetadata",
+                "type": "json",
+                "value": {
+                  "groupedColumns": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Titanic_Dataset"
+                          }
+                        },
+                        "Property": "Fare"
+                      }
+                    }
+                  ],
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "isDataTypeInferred": true,
+            "lineageTag": "3331f7ae-c064-4c74-9247-79d33da98753",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Passengers",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "    IF('Titanic_Dataset'[Gender] = \"female\" && 'Titanic_Dataset'[Age] < 18, \"Child\",",
+              "    IF('Titanic_Dataset'[Gender] = \"male\" && 'Titanic_Dataset'[Age] < 18, \"Child\",",
+              "    IF('Titanic_Dataset'[Gender] = \"female\" && 'Titanic_Dataset'[Age] >= 18, \"Woman\", \"Adult Male\")))",
+              ""
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "d5395607-f097-4a53-b169-844efc34d58d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "73a91e9c-4e75-4fa5-bc66-5e7a0c46727c",
+        "measures": [
+          {
+            "name": "Total Survived",
+            "expression": [
+              "COUNTROWS(FILTER('Titanic_Dataset', 'Titanic_Dataset'[Survived] = \"Yes\"))",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "805125e8-61db-4985-b23b-108826c5335b"
+          },
+          {
+            "name": "Total Death",
+            "expression": [
+              "COUNTROWS(FILTER('Titanic_Dataset', 'Titanic_Dataset'[Survived] = \"No\"))",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "41824f45-bbb2-432f-8efe-4d81475cb366"
+          },
+          {
+            "name": "Average Age",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "AVERAGE('Titanic_Dataset'[Age])",
+              ""
+            ],
+            "lineageTag": "ac7f88db-0aa5-44a2-b0ba-bfd698736d79"
+          },
+          {
+            "name": "Survival Rate %",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    COUNTROWS(FILTER('Titanic_Dataset', 'Titanic_Dataset'[Survived] = \"Yes\")),",
+              "    COUNTROWS('Titanic_Dataset'),",
+              "    0",
+              ") * 100",
+              ""
+            ],
+            "lineageTag": "e8eb4a13-c1d3-403a-9c99-73d4c7f16beb"
+          },
+          {
+            "name": "TotalPassengers",
+            "expression": [
+              "COUNTROWS('Titanic_Dataset')",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "1cc3cedf-25cc-4223-b4ee-2104799b0adc"
+          },
+          {
+            "name": "SurvivedCount",
+            "expression": [
+              "SUM('Titanic_Dataset'[Survived])",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "cbc6b73d-cf91-4dd9-b0d8-8e5a28e6a8de"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Titanic_Dataset",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\USER\\Desktop\\30 Days Challenge\\Titanic_Dataset.csv\"),[Delimiter=\",\", Columns=18, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"PassengerId\", Int64.Type}, {\"Survived\", type text}, {\"Pclass\", type text}, {\"Surname\", type text}, {\"LongName\", type text}, {\"Title\", type text}, {\"Sex\", type text}, {\"Age\", Int64.Type}, {\"SibSp\", Int64.Type}, {\"Parch\", Int64.Type}, {\"Fare\", type number}, {\"Ticket\", type text}, {\"Cabin\", type text}, {\"CabinLevel\", type text}, {\"FamilySize\", Int64.Type}, {\"MaxFamilySize\", Int64.Type}, {\"TravelGroup\", type text}, {\"Embarked\", type text}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"Sex\", \"Gender\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_ee79b59b-a8d9-4469-a1a7-35c23bc9f8a3",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "0f508333-9f2b-497c-84b2-4e36c42c97ff",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "ee9b67bd-cc4c-41bb-9d6d-8a8e3233c4e6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "ea62ddb7-8ea6-4590-83dd-1f6e9f9c8ca8",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "f8fc549e-2c65-4b2c-9456-59a5001438bf",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "e864c983-23f5-466d-b89e-3fe899db758a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "259df8f8-4a86-4315-a40e-c9d6d00f989d",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "f713e30d-c9e8-4113-a343-59971f59deb3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "2b41b72e-c00f-455d-95aa-15dfcb4657a1",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "c8d1ba83-597a-4198-9438-3f03d3a0a8c1",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "d9e79bb9-3cdf-4d35-8de0-f85ad9a20b43",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "41a3847e-d3d7-4634-aae8-0d06957d0620",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "fa3d8c04-ba4c-4d49-a93d-cc223f287cdb"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "b17168b7-4795-4cf1-91d2-7d87eb6fba35",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_ee79b59b-a8d9-4469-a1a7-35c23bc9f8a3",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
